@@ -1,0 +1,97 @@
+\documentclass{resume}
+\usepackage{palatino}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage[left=0.4in,top=0.3in,right=0.4in,bottom=0.3in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Jerome Wei} % Your name
+%\address{508 Ramona Ave. Albany, California, 94706} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(510)-833-0536 $|$ jeromew@berkeley.edu $|$ \href{https://github.com/jeromew21}{github} $|$ \href{https://www.linkedin.com/in/jeromewei/}{linkedin}}
+ % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of California, Berkeley} \hfill {\em 2017-} 
+\\ B.A. Computer Science
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages &  C/C++, Python, Java, Javascript \\
+Software \& Tools & Unix, PyTorch/TensorFlow, Git, AWS \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Relevant Experience}
+
+\begin{rSubsection}{University of California, San Francisco}{August 2020 - January 2021}{Research Data Analyst, Keiser Lab}{}
+\item Worked alongslide contractor Slalom to deliver an enviroment for training melanoma stage classification models. Responsible for writing scalable and portable data preprocessing scripts, performed data analysis, and acted as a go-between Keiser Lab and Slalom.
+\item Trained model on pathological data.
+\item Ran experiments to understand robustness, effects of artifacts and blur, and interpretable results.
+\end{rSubsection}
+
+\begin{rSubsection}{Lawrence Berkeley National Laboratory}{January 2019 - November 2019}{Undergraduate Student Assistant}{}
+\item Researched novel ways to speed up and refactor EnergyPlus codebase, a building energy use simulation software. Wrote framework to test refactored methods, tracking
+error and memoization properties such as miss rate and hash collision rate. 
+\item Achieved up to 300\% speedup on select functions. 
+\end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{Computer Science Mentors}{January 2019 - May 2019}{Junior Mentor, CS70 (Discrete Mathematics and Probability Theory)}{}
+\item Lead weekly mentoring groups for CS70. Sections focus on solidifying students’ understanding of concepts covered in lecture and discussion. Prepare weekly lesson plans that provide coverage of material and cater towards individual learning
+styles.
+\end{rSubsection}
+
+\end{rSection}
+
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Selected Projects} \itemsep -2pt
+\item \textbf{GraphsViz} Virtual Reality visualization of graph traversal algorithms (BFS/DFS), made in Unity C\#.
+\item \textbf{ChocoPy Compiler} A compiler for a statically typed dialect of Python 3, for CS164. Worked in a small group on three stages: lexer, parser, and code generator.
+\item \textbf{Fantasy Basketball Optimization} Formalized fantasy basketball as nonlinear optimization problem. Tested common and novel strategies with Monte Carlo simulation.
+\item \textbf{Chess Engine} A fully functional chess engine, written in C++ from scratch. Strength of 2000 ELO based on average performance against other engines.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Relevant Courses}
+ \itab{Data Structures} \tab{}  \tab{Linear Algebra}
+\\ \itab{Discrete Math} \tab{}  \tab{Multivariable Calculus} 
+\\ \itab{Probability Theory} \tab{}  \tab{Programming Languages and Compilers}
+\\ \itab{Efficient Algorithms and Intractable Problems} \tab{} \tab{Machine Structures} 
+% \\ \itab{Process Control (ongoing)} \tab{} \tab{Electrodynamics}
+
+\end{rSection}
+
+
+\end{document}
