@@ -1,5 +1,5 @@
-.cls
-.fdb_latexmk
-.fls
-.out
-.gz
+*.cls
+*.fdb_latexmk
+*.fls
+*.out
+*.gz
